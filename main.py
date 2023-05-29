@@ -126,6 +126,7 @@ class CarAssemblyLine:
             mi_hilo = threading.Thread(target=self.init_status(0))
             # Iniciar la ejecución del hilo
             mi_hilo.start()
+            # Comment
             i+=1
     
 
